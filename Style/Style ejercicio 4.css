@@ -1,0 +1,173 @@
+/*-----Etiquetas-----*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #9a5833;
+  margin: 0;
+  color: #4b1c01;
+}
+
+section {
+  margin: 0 20px 0 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 45px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+header {
+  background-color: #00aa00;
+  height: 45px;
+  width: 100%;
+  display: block;
+}
+
+button {
+  background-color: #00aa00;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #38e238;
+}
+
+em {
+  margin-top: 15px;
+  display: block;
+}
+
+footer {
+  background-color: #00aa00;
+  height: 45px;
+  display: block;
+  margin-top: 30px;
+}
+
+p {
+  text-align: justify;
+}
+
+hr {
+  border: 1px solid #4b1c01;
+  margin: 0 20px;
+  margin-top: 15px;
+}
+
+/*------------------------Clases-----------------------------------*/
+.section1 {
+  display: flex;
+  padding: 20px;
+}
+
+.info-notch {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-notch h3 {
+  margin-top: 0;
+}
+
+.texto-notch p {
+  margin-top: 0;
+  position: relative;
+}
+
+.ul-style {
+  text-align: left;
+}
+
+.btn-style-1 {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.img-Minecraft {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*---------------------- Contacto -----------------*/
+.contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.div-form {
+  background-color: #38e238;
+  border: 2px solid #4b1c01;
+  border-radius: 10px;
+  padding: 10px 30px;
+  width: 40%;
+  margin-top: 1.5em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-form {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-form button {
+  padding: 10px 25px;
+}
+
+input {
+  height: 20px;
+}
+
+input,
+textarea {
+  border: 3px #00aa00 solid;
+  background-color: whitesmoke;
+  color: #4b1c01;
+  border-radius: 10px;
+}
+
+label {
+  color: #4b1c01;
+  padding: 5px;
+}
+
+/*-----IDs-----*/
+#Notch {
+  float: left;
+  width: 40%;
+  margin: 0 10px 0 0;
+}
+
+#Minecraft {
+  width: 48%;
+}
+
+#Notch,
+#Minecraft {
+  border-radius: 40px;
+  border: 2px solid #00aa00;
+}
+
+/*--------------- Medias Query --------------*/

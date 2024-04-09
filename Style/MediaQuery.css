@@ -1,0 +1,148 @@
+@media (max-width: 768px) {
+  #Minecraft {
+    width: 65%;
+  }
+
+  p,
+  li,
+  label,
+  em {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  .div-form {
+    margin-top: 0;
+    width: 300px;
+  }
+  .form textarea {
+    height: 85px;
+  }
+}
+
+/**--------jiosji09u80ghohsh**/
+
+@media (max-width: 425px) {
+  #Notch {
+    width: 169px;
+  }
+
+  #Minecraft {
+    width: 80%;
+  }
+
+  p,
+  li,
+  label,
+  em {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  .div-form {
+    margin-top: 0;
+    width: 300px;
+  }
+  .form textarea {
+    height: 85px;
+  }
+}
+
+@media (max-width: 375px) {
+  .img-Notch {
+    width: 45%;
+    float: left;
+  }
+
+  #Minecraft {
+    width: 80%;
+  }
+
+  p,
+  li,
+  label,
+  em {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  .div-form {
+    margin-top: 0;
+    width: 300px;
+  }
+  .form textarea {
+    height: 85px;
+  }
+}
+
+@media (max-width: 320px) {
+  #Notch {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .img-Notch {
+    width: 100%;
+  }
+
+  #Minecraft {
+    width: 80%;
+  }
+
+  p,
+  li,
+  label {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  .div-form {
+    margin-top: 0;
+    width: 75%;
+  }
+  .form textarea {
+    height: 85px;
+  }
+}
+
+@media (max-width: 280px) {
+  #Notch {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  #Minecraft {
+    width: 80%;
+  }
+
+  p,
+  li,
+  label,
+  :empty {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  .div-form {
+    margin-top: 0;
+    min-width: 0;
+  }
+  .form textarea {
+    height: 85px;
+  }
+}
